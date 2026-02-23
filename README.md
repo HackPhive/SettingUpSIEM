@@ -54,14 +54,12 @@ Confirm Splunk Server Successfully ingested Linux Authentication Logs and Window
 Creating Dashboard for Logs Overview:  <br/>
 <img src="https://i.postimg.cc/Qx52SCZW/img10.png" height="80%" width="80%" alt="Dashboard"/>
 <br />
-Dashboard Overview(Failed Logins, Successful Logins, Admin Login):  <br/>
-<img src="https://i.postimg.cc/6QHgTGnh/img11.png" height="80%" width="80%" alt="Dashboard Overview"/>
+Dashboard Overview(Logins and Admin Activities):  <br/>
+<img src="https://i.postimg.cc/PrvMnBDM/Screenshot-2026-02-23-at-5-12-06-PM.png" height="80%" width="80%" alt="Dashboard Overview"/>
 </p>
 
 <p>
-  Summary: In this project I was able to install Splunk Enterprise on Windows OS as both Indexer and search head. I encountered Web User Interface errors during configurations but I was able to fix  it through manual configuration of the inputs.conf. When trying to integrate Linux OS I also encountered error due to the Linux version I was operating, I was able to identify the architecture mismatch (ARM64, not x64).  I enabled the system service for a reliable startup and persistence. 
-
-Data was Successfully collected from Windows OS Event Logs and Linux Authentication showing a real-time cross platform security visibility.
+  Summary: In this project, I demonstrated my ability to build a home Security Operation Center (SOC) using Splunk as the SIEM. The Dashboard Monitors Windows Security Logs and Linux Authentication Logs to detect Failed or Successful Logins and Administrative accounts activities. I configured a Real-Time functional Dashboard to allow Security Analyst quickly detect and investigates suspicious activities across different endpoint devices (Windows OS, Linux OS).
 </p>
 
 <!--
