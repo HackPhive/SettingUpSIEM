@@ -58,7 +58,7 @@ As expected, checking the reputation of the Link using Virustotal, 1 vendor flag
 
 <h2>IOCs</h2>
 
-- <b>Spoofed Email Sender: sues@nnwifi.com</b> 
+- <b>Spoofed Email Sender: sues[@]nnwifi[.]com</b> 
 - <b>Subject : Warning [Threat]</b>
 - <b>Attachment : Present</b>
 - <b>Link : Present</b>
